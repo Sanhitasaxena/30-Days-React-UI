@@ -1,0 +1,27 @@
+.App{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: pink; */
+}
+
+.navbar{
+    /* text-align: center; */
+    background-color: pink;
+    margin-top: -20px;
+    
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parent-btn{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+}

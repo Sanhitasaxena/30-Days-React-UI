@@ -1,0 +1,36 @@
+.btn{
+    /* background-color: pink; */
+    border: 1px solid black;
+    height: 40px;
+    width: 70px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    cursor: pointer;
+
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.5s ease-in-out;
+
+    font-size: 14px;
+    color: black;
+    
+}
+
+/* Define the bounce animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0); /* Starting position and reset after the animation */
+    }
+    40% {
+      transform: translateY(-12px); /* Move up */
+    }
+    /* Move down slightly less */
+    /* 60% {
+      transform: translateY(-10px); 
+    } */
+  }
+
+/* Apply the bounce animation on button hover */
+.btn:hover {
+    animation: bounce 0.8s;
+  }  
