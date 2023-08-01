@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="navbar">
-        <h2>30 days react ui</h2>
+        <h2>30 DAYS REACT UI</h2>
       </div>
       <div className="parent-btn">
         {DAYS.map((data) => {

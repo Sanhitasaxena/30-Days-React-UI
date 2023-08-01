@@ -6,15 +6,31 @@
 
 .navbar{
     /* text-align: center; */
-    background-color: pink;
+    /* background-color: pink; */
+    background-image: linear-gradient(to right, red , yellow);
     margin-top: -20px;
     
-    height: 10vh;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
+.navbar h2{
+    animation: slide-in 4s ease-in-out;
+}
+
+@keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
 .parent-btn{
     width: 40%;
