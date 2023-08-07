@@ -5,6 +5,7 @@ import App from './App';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ChatGPT from './Pages/Day-1/ChatGPT';
 import Github from './Pages/Day-2/Github';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

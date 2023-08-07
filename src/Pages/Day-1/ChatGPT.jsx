@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Sidebar from "./components/sidebar/Sidebar";
 
 const ChatGPT = () => {
   return (
-    <div>ChatGPT</div>
-  )
-}
+    <div className="main">
+      <Sidebar/>
+      
+    </div>
+  );
+};
 
-export default ChatGPT
+export default ChatGPT;
