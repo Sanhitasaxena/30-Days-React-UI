@@ -1,0 +1,18 @@
+.sideBar{
+    background-color: #202123;
+    color: white;
+    width: 18%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-left: 15px; 
+    gap: 40px;
+
+}
+
+ul{
+    list-style: none;
+    line-height: 30px;
+    
+}
