@@ -1,18 +1,44 @@
-.sideBar{
+.content{
     background-color: #202123;
     color: white;
-    width: 18%;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
     padding-left: 15px; 
     gap: 40px;
+    position: relative;
+    top: 20px;
 
+}
+.sideBar{
+    background-color: #202123;
+    width: 19%;
+    height: 100%;
 }
 
 ul{
     list-style: none;
     line-height: 30px;
     
+}
+
+.newChat, .collapse-btn{
+    border: 0.8px solid #404144;
+    width: 76%;
+    padding: 12px;
+    border-radius: 9px;
+}
+
+.collapse-btn{
+    width: 20%;
+    font-size: 1em;
+    text-align: center;
+}
+
+.collapse-svg{
+    /* font-size: 70px; */
+
+
 }
