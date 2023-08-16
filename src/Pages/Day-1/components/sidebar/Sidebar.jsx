@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/sidebar/sidebar.css";
 import { BsPlusLg } from "react-icons/bs";
+import ListIcon from "./ListIcon";
 
 const Sidebar = () => {
   return (
@@ -31,210 +32,57 @@ const Sidebar = () => {
           </span>
         </div>
         <div className="list-1">
-          <h6>Yesturday</h6>
+          <b>Yesturday</b>
           <ul>
             <li>
-              <span
-              className="pe-3">
-                <svg
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="h-4 w-4"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                </svg>
-              </span>
+              <ListIcon/>
               Centering Div: 3 Methods{" "}
             </li>
             <li>
-              <span
-              className="pe-3">
-                <svg
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="h-4 w-4"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                </svg>
-              </span>Front-End Dev Position Request
+              <ListIcon/>
+              Front-End Dev Position
             </li>
           </ul>
         </div>
         <div className="list-2">
-          <h6>Previous 7 Days</h6>
+          <b>Previous 7 Days</b>
           <ul>
             <li>
-              <span
-               className="pe-3">
-               <svg
-                 stroke="currentColor"
-                 fill="none"
-                 stroke-width="2"
-                 viewBox="0 0 24 24"
-                 stroke-linecap="round"
-                 stroke-linejoin="round"
-                 class="h-4 w-4"
-                 height="1em"
-                 width="1em"
-                 xmlns="http://www.w3.org/2000/svg"
-               >
-                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-               </svg>
-                
-              </span>Animate Text CSS
+              <ListIcon/>
+             Animate Text CSS
             </li>
             <li>
-              <span
-               className="pe-3">
-               <svg
-                 stroke="currentColor"
-                 fill="none"
-                 stroke-width="2"
-                 viewBox="0 0 24 24"
-                 stroke-linecap="round"
-                 stroke-linejoin="round"
-                 class="h-4 w-4"
-                 height="1em"
-                 width="1em"
-                 xmlns="http://www.w3.org/2000/svg"
-               >
-                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-               </svg>
-                
-                </span>New Chat
+              <ListIcon/>
+              New Chat
             </li>
             <li>
-              <span
-               className="pe-3">
-               <svg
-                 stroke="currentColor"
-                 fill="none"
-                 stroke-width="2"
-                 viewBox="0 0 24 24"
-                 stroke-linecap="round"
-                 stroke-linejoin="round"
-                 class="h-4 w-4"
-                 height="1em"
-                 width="1em"
-                 xmlns="http://www.w3.org/2000/svg"
-               >
-                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-               </svg>
-              </span>New Chat
+              <ListIcon/>
+              New Chat
             </li>
             <li>
-              <span
-               className="pe-3">
-               <svg
-                 stroke="currentColor"
-                 fill="none"
-                 stroke-width="2"
-                 viewBox="0 0 24 24"
-                 stroke-linecap="round"
-                 stroke-linejoin="round"
-                 class="h-4 w-4"
-                 height="1em"
-                 width="1em"
-                 xmlns="http://www.w3.org/2000/svg"
-               >
-                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-               </svg>
-              </span>New Chat
+              <ListIcon/>
+              New Chat
             </li>
             <li>
-              <span
-               className="pe-3">
-               <svg
-                 stroke="currentColor"
-                 fill="none"
-                 stroke-width="2"
-                 viewBox="0 0 24 24"
-                 stroke-linecap="round"
-                 stroke-linejoin="round"
-                 class="h-4 w-4"
-                 height="1em"
-                 width="1em"
-                 xmlns="http://www.w3.org/2000/svg"
-               >
-                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-               </svg>
-              </span>React Responsive Navbar
+              <ListIcon/>
+              React Responsive Navbar
             </li>
             <li>
-              <span
-               className="pe-3">
-               <svg
-                 stroke="currentColor"
-                 fill="none"
-                 stroke-width="2"
-                 viewBox="0 0 24 24"
-                 stroke-linecap="round"
-                 stroke-linejoin="round"
-                 class="h-4 w-4"
-                 height="1em"
-                 width="1em"
-                 xmlns="http://www.w3.org/2000/svg"
-               >
-                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-               </svg>
-              </span>New Chat
+              <ListIcon/>
+              New Chat
             </li>
           </ul>
         </div>
         <div className="list-3">
-          <h6>Previous 30 days</h6>
+          <b>Previous 30 days</b>
           <ul>
             <li>
-              <span
-               className="pe-3">
-               <svg
-                 stroke="currentColor"
-                 fill="none"
-                 stroke-width="2"
-                 viewBox="0 0 24 24"
-                 stroke-linecap="round"
-                 stroke-linejoin="round"
-                 class="h-4 w-4"
-                 height="1em"
-                 width="1em"
-                 xmlns="http://www.w3.org/2000/svg"
-               >
-                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-               </svg>
-              </span>New Chat
+             <ListIcon/>
+             New Chat
             </li>
             <li>
-              <span
-               className="pe-3">
-               <svg
-                 stroke="currentColor"
-                 fill="none"
-                 stroke-width="2"
-                 viewBox="0 0 24 24"
-                 stroke-linecap="round"
-                 stroke-linejoin="round"
-                 class="h-4 w-4"
-                 height="1em"
-                 width="1em"
-                 xmlns="http://www.w3.org/2000/svg"
-               >
-                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-               </svg>
-              </span>Frontend Dev Seeks Opportunities.
+              <ListIcon/>
+              Frontend Dev Seeks Opportunities.
             </li>
           </ul>
         </div>
