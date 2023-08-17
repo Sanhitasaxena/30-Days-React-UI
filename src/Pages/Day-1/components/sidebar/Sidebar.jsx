@@ -35,11 +35,11 @@ const Sidebar = () => {
           <b>Yesturday</b>
           <ul>
             <li>
-              <ListIcon/>
+              <ListIcon />
               Centering Div: 3 Methods{" "}
             </li>
             <li>
-              <ListIcon/>
+              <ListIcon />
               Front-End Dev Position
             </li>
           </ul>
@@ -48,27 +48,27 @@ const Sidebar = () => {
           <b>Previous 7 Days</b>
           <ul>
             <li>
-              <ListIcon/>
-             Animate Text CSS
+              <ListIcon />
+              Animate Text CSS
             </li>
             <li>
-              <ListIcon/>
+              <ListIcon />
               New Chat
             </li>
             <li>
-              <ListIcon/>
+              <ListIcon />
               New Chat
             </li>
             <li>
-              <ListIcon/>
+              <ListIcon />
               New Chat
             </li>
             <li>
-              <ListIcon/>
+              <ListIcon />
               React Responsive Navbar
             </li>
             <li>
-              <ListIcon/>
+              <ListIcon />
               New Chat
             </li>
           </ul>
@@ -77,22 +77,38 @@ const Sidebar = () => {
           <b>Previous 30 days</b>
           <ul>
             <li>
-             <ListIcon/>
-             New Chat
+              <ListIcon />
+              New Chat
             </li>
             <li>
-              <ListIcon/>
+              <ListIcon />
               Frontend Dev Seeks Opportunities.
             </li>
           </ul>
         </div>
         <div className="sidebar-footer">
           <div className="footer-premium">
-            <div>
-              {/* icon */}
-              <span>Upgrade to premium</span>
+            <div className="d-flex text-align-center">
+              <span>
+                <svg
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="h-4 w-4 shrink-0 footer-icon"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </span>
+              <span className="ms-2">Upgrade to premium</span>
             </div>
-            <button>NEW</button>
+            <button className="footer-btn">NEW</button>
           </div>
           <div className="profile">
             <div>

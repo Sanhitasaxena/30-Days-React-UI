@@ -7,7 +7,7 @@
     flex-direction: column;
     /* justify-content: space-between; */
     padding-left: 15px; 
-    gap: 40px;
+    gap: 15px;
     position: relative;
     top: 20px;
 
@@ -45,4 +45,28 @@ ul{
 
 b{
     color: #8E8EA0;
+    font-size: 13px;
+}
+
+.footer-premium{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.footer-btn{
+    height: 25px;
+    width: 45px;
+    border-radius: 0.375rem;
+    border: none;
+    background-color: #FAE69E;
+    font-size: 13.5px;
+    /* padding: 5px; */
+    font-weight: 600;
+ 
+}
+
+.footer-icon{
+    font-size: 12px;
 }
